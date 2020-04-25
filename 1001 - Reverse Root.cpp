@@ -1,6 +1,6 @@
 /*
 	Idea :
-	1) Envolves the basic concept of how to know where the input end, this can be done
+	1) Envolves the basic concept of how to know where the input end, this can be done by
 	-- checking for EOF. Also avoid using fastIO in this problem.
 */
 #pragma GCC target ("avx2")
