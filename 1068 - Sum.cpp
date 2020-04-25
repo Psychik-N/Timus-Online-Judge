@@ -1,3 +1,8 @@
+/*
+	Idea :
+	1) You can do the brute force.
+	2) You can apply formula for sigma(N*N) and if N is negative then reverse the sign and add 1 to it.
+*/
 #pragma GCC target ("avx2")
 #pragma GCC optimization ("O3")
 #pragma GCC optimization ("unroll-loops")
