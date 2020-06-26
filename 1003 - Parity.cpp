@@ -1,6 +1,8 @@
 /*
 	Idea :
-	1) Let range L to R has some parity then it implies. If parity is even then sumOfOne(R+1) % 2 == sumOfOne(L) % 2, and in case of odd it is not equal.
+	1) Let range L to R has some parity then it implies. If parity is even then sumOfOneTill(R+1) % 2 == sumOfOneTill(L) % 2, and in case of odd it 
+	-- is not equal.
+	2) So L represents sum of one till it is even and -L represent sum of one till it is odd.
 */
 #pragma GCC target ("avx2")
 #pragma GCC optimization ("O3")
