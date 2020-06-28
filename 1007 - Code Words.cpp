@@ -73,7 +73,7 @@ int main() {
 			memset(code, 0, n*sizeof(int));
 		}
 		continue;
-		step3: 
+		step3 : 
 		{
 			for(i = 0; i <= n; i ++) {
 				char temp = code[i];
